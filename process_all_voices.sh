@@ -20,6 +20,9 @@ mkdir -p $output_dir
 # TODO: Allow more than .aiff
 for voice in "${available_voices[@]}"
 do
+  echo "Now processing $voice"
   # echo say -v $voice $input -o $output_dir/$voice.aiff # DEBUG
   say -v $voice \"$input\" -o $output_dir/$voice.aiff
 done
+
+echo "...done!"

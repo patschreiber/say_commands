@@ -1,6 +1,6 @@
 .DS_Store
 ._.DS_Store
-desktop.ini
+.desktop.ini
+slipstream_vst.code-workspace
 .idea
-.code
-
+.vscode
